@@ -6,7 +6,7 @@ name: CICD_$(Date:yyyyMMdd)_$(Rev:r)
 
 variables:
   URL: https://elastic.snaplogic.com
-  ORG: ConnectFasterInc
+  ORG: SLDemo
   PROJECT_SPACE_TEST: CICD_02_Test
   PROJECT_SPACE_STAGING: CICD_03_Staging
   PROJECT_STAGING: azure_demo
