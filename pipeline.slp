@@ -23,7 +23,7 @@
         },
         "info": {
             "author": {
-                "value": "mmays@snaplogic.com"
+                "value": "gkumar@snaplogic.com"
             },
             "label": {},
             "notes": {
@@ -178,7 +178,7 @@
                                     {
                                         "expression": {
                                             "expression": true,
-                                            "value": "27"
+                                            "value": "28"
                                         },
                                         "targetPath": {
                                             "value": "iterator"
