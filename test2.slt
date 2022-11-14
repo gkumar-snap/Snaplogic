@@ -1,0 +1,17 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "test2",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "cbD7oJuT3QyQ2XeAV7NKz37EvcV0QSKI",
+        "pipeline_parameters": {},
+        "pipeline_path": "test",
+        "snaplex_path": "TriggerCloudplex"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}
