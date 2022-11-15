@@ -92,7 +92,7 @@ jobs:
       USER: $(user)
       PASS: $(pass)
   - script: |
-      export RESULT=$(curl -X POST ${{ variables.URL }}/api/1/rest/public/project/checkout/${{ variables.ORG }}/${{ variables.PROJECT_SPACE_STAGING }}/${{ variables.PROJECT_STAGING }} \
+      export RESULT=$(curl -X POST ${{ variables.URL }}/api/1/rest/public/project/checkout/${{ variables.ORG }}/${{ variables.PROJECT_SPACE_STAGING }}/${{ variables.PROJECT_STAGING }}  \
       -u $USER:$PASS \
       -H "Content-Type: application/json" \
       -d '{"repo":"'$REPO'","ref":"'$BRANCH'"}' \
